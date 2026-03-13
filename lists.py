@@ -51,3 +51,10 @@ users.sort()
 print(users)
 users.sort(key=str.lower)
 print(users)
+
+nums = [4, 42, 54, 5, 67]
+nums.reverse()
+print(nums)
+
+nums.sort(reverse=True)
+print(nums)
