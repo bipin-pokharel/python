@@ -17,4 +17,3 @@ print(message)
 
 player = {"person": "dave", "coins": 3}
 message = "\n{person}  has {coins}  coins  left.".format(**player)
-print(message)
